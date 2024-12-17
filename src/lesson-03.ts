@@ -1,0 +1,1 @@
+const nbToGuess = 43;
