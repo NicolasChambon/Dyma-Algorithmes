@@ -1,11 +1,9 @@
-const randomInt = (min: number, max: number) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+import { randomInt } from '../functions/randomInt.func.js';
 
 let currentProposal: number;
 let isFound = false;
 let numberOfAttemps = 0;
-let min = 0;
+let min = 1;
 let max = 100;
 
 const numberToGuess = randomInt(min, max);
